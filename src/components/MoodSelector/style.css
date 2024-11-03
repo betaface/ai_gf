@@ -1,0 +1,27 @@
+/* MoodSelector styles */
+.mood-selector {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .mood-option {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    width: 100px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mood-option:hover {
+    background-color: #0056b3;
+  }
+  
+  .mood-option.active {
+    background-color: #0d6efd;
+    font-weight: bold;
+  }
+  
